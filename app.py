@@ -1,17 +1,24 @@
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from openai import OpenAI
-import os
-
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 import os
 from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
+from openai import OpenAI
 
-# Load environment variables
+# ✅ Load .env variables BEFORE using OpenAI
 load_dotenv()
 
+# ✅ Retrieve the API key AFTER loading .env
+api_key = os.getenv("OPENAI_API_KEY")
+
+if not api_key:
+    raise ValueError("❌ ERROR: OPENAI_API_KEY is missing. Check your .env file.")
+
+# ✅ Now initialize OpenAI client with the loaded API key
+client = OpenAI(api_key=api_key)
+
 app = FastAPI()
+
 
 # Fine-tuned models
 MODELS = {
