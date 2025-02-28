@@ -3,7 +3,7 @@ Follow these steps to **set up and run the project** after cloning.
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone [https://github.com/your-repo/click2lead-scrum.git](https://github.com/NicholasBelschner/scrum_click2lead.git)
+git clone https://github.com/NicholasBelschner/scrum_click2lead.git
 cd click2lead-scrum
 ```
 
