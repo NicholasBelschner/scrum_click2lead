@@ -45,7 +45,3 @@ npm start
 ### **✅ Everything is now running!**  
 - **Backend:** Runs at `http://127.0.0.1:8000`
 - **Frontend:** Runs at `http://localhost:3000`
-
----
-
-This keeps it **short, clear, and efficient**. 🚀 Let me know if you need modifications! 🔥
