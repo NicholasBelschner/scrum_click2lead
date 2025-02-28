@@ -10,8 +10,7 @@ cd click2lead-scrum
 ### **2️⃣ Setup & Activate Virtual Environment**
 ```bash
 python -m venv venv
-source venv/bin/activate  # macOS/Linux
-venv\Scripts\activate     # Windows
+source venv/bin/activate
 ```
 
 ### **3️⃣ Install Backend Dependencies**
@@ -36,9 +35,8 @@ uvicorn app:app --reload
 
 ### **6️⃣ Setup Frontend**
 ```bash
-cd frontend
 npm install
-npm install react-icons web-vitals  # Install missing dependencies
+npm install react-icons web-vitals 
 npm start
 ```
 
