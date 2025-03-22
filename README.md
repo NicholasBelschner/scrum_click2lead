@@ -1,3 +1,4 @@
+https://github.com/user-attachments/assets/1f56c73e-e277-4e92-8306-d5f430277e64
 ## **🚀 Setup Guide for Click2Lead Scrum AI**
 Follow these steps to **set up and run the project** after cloning.
 
